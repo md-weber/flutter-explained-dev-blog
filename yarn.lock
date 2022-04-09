@@ -1032,6 +1032,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.11.2":
+  version "7.17.9"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.17.9.tgz#d19fbf802d01a8cb6cf053a64e472d42c434ba72"
+  integrity sha512-lSiBBvodq29uShpWGNbgFdKYNiFDo5/HIYsaCEY9ff4sb10x9jizo2+pRrSyF4jKZCXqgzuqBOQKbUm90gQwJg==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/template@^7.12.7", "@babel/template@^7.16.7":
   version "7.16.7"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.16.7.tgz#8d126c8701fde4d66b264b3eba3d96f07666d155"
@@ -5828,6 +5835,13 @@ gatsby-plugin-gatsby-cloud@^4.0.0:
     kebab-hash "^0.1.2"
     lodash "^4.17.21"
     webpack-assets-manifest "^5.1.0"
+
+gatsby-plugin-gdpr-cookies@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-gdpr-cookies/-/gatsby-plugin-gdpr-cookies-2.0.8.tgz#bbbf2ae430ea77190834121c08dccfb4d5b9d903"
+  integrity sha512-/JVwfWdvndiEWDV5Krw8fGKf76O5UOptYu5DaGIasub27pxemlsSbxiCdUGkEjrSpdmrmMixtTZrOjQLC8ti2g==
+  dependencies:
+    "@babel/runtime" "^7.11.2"
 
 gatsby-plugin-manifest@^4.0.0:
   version "4.9.0"
