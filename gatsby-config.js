@@ -38,7 +38,7 @@ module.exports = {
                     },
                     {
                         name: `Videos`,
-                        url: `https://odysee.com/@flutterexplained:7`,
+                        url: `https://odysee.com/$/invite/@flutterexplained:7`,
                     },
                     {
                         name: `Products`,
