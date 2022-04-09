@@ -50,12 +50,6 @@ Navigator.push(
 
 The MaterialPageRoute is responsible for more than just routing. It also controls the transition and keeps the old route in memory on the stack so that we can route back as soon as we want. For that, we should call Navigator.pop(). This method removes the first Widget from the stack.
 
-<div style={{display: "flex", justifyContent: "center"}}>
-    <iframe id="odysee-iframe" width="560" height="315"
-            src="https://odysee.com/$/embed/navigation-in-flutter-flutter-explained/91198295576ac6ade2b1f0248107c7917b8dc38b?r=BJgwk1iRu2HVxyUNS1oX38aRZPJ1YbT9"
-            allowFullScreen/>
-</div>
-
 ## 2. Static Navigation with Route Map
 The second option that we have is the route map, and this is the preferred way if you use a state management tool like, Provider or BloC pattern. You have the option to create a Map with String keys that identifies different WidgetBuilder Methods and take care of the navigation.
 ```dart
@@ -80,12 +74,6 @@ Navigator.pushNamed(context, LobbyScreen.route);
 The static “route” is a variable that contains a string that identifies the route to the specific Widgets. Be mindful that if one of your ways contains a slash as a prefix, you have to provide at least one path with a pure “/”. “/” is your primary way. The Widget Builder function, that the map represents for the different routes, getting used to create a MaterialPageRoute inside of the Flutter Framework to navigate to the different Views.
 
 The only disadvantage is that you cannot pass a value inside of a route. The dynamic navigation will handle the possibility to pass arguments to the route.
-
-<div style={{display: "flex", justifyContent: "center"}}>
-    <iframe id="odysee-iframe" width="560" height="315"
-            src="https://odysee.com/$/embed/named-routes-in-flutter/4f9eeff4d69f969fe72e37574c908792c1667718?r=BJgwk1iRu2HVxyUNS1oX38aRZPJ1YbT9"
-            allowFullScreen/>
-</div>
 
 ## 3. Dynamic Navigation with onGeneratedRoute
 The third option that I would like to add is the option to create an onGeneratedRoute. The onGeneratedRoute has the advantage that you can create routes and access the passed through arguments.
