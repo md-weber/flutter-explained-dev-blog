@@ -37,8 +37,8 @@ module.exports = {
                         url: `https://twitter.com/flutter_exp`,
                     },
                     {
-                        name: `YouTube`,
-                        url: `https://youtube.com/c/flutterexplained`,
+                        name: `Videos`,
+                        url: `https://odysee.com/@flutterexplained:7`,
                     },
                     {
                         name: `Products`,
