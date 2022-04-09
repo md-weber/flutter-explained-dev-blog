@@ -135,12 +135,13 @@ module.exports = {
               }
             `,
                         output: `rss.xml`,
-                        title: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
+                        title: `Flutter Explained Blog`,
                     },
                 ],
             },
         },
         `gatsby-plugin-gatsby-cloud`,
+        `gatsby-plugin-netlify`,
         shouldAnalyseBundle && {
             resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
             options: {
